@@ -194,6 +194,13 @@ namespace OpenSource.UPnP
         public Uri BaseURL;
         public String LocationURL;
         public String FriendlyName;
+        public string DisplayName
+        {
+            get
+            {
+                return FriendlyName;
+            }
+        }
         public String Manufacturer;
         public String ManufacturerURL;
         public String ModelDescription;
